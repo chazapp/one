@@ -1,0 +1,56 @@
+_id: spc_16822a96141641ef927703775da7645d
+type: ApiSpec
+parentId: wrk_da4f08698c7c456296d0bd5b708333b5
+modified: 1687083248318
+created: 1687083186378
+fileName: One OpenAPI
+contents: "openapi: 3.1.0
+
+  info:
+
+  \  title: My API
+
+  \  description: This is a sample API for demonstration purposes.
+
+  \  version: 1.0.0
+
+  \  contact:
+
+  \    email: chazapp
+
+
+  servers:
+
+  \  - url: https://one-api.chaz.pro/v1
+
+  \    description: Production server
+
+
+  tags:
+
+  \  - name: orders
+
+  \     \ 
+
+
+  paths:
+
+  \  /orders:
+
+  \    get:
+
+  \      summary: Retrieve a list of orders
+
+  \      description: Admin route that returns all orders
+
+  \      operationId: getOrders
+
+  \      tags:
+
+  \        - orders
+
+
+  \   \ 
+
+  \  "
+contentType: yaml
